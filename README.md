@@ -1,5 +1,6 @@
-# Led-control-using-Arduino
-
+## NAME: JOTHILAKSHMI PALANI
+## REG NO: 212223110017
+# EXP 1 : Led-control-using-Arduino
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -58,9 +59,39 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="725" height="513" alt="Screenshot 2025-08-21 093053" src="https://github.com/user-attachments/assets/2a1eb4d2-04b2-4e26-97af-333322e94ba8" />
+
 
 ## PROGRAM
+```
+void setup() {
+  pinMode(13,OUTPUT);
+  pinMode(2,INPUT);
 
+}
+
+void loop() {
+  int status=digitalRead(2);
+  if(status==HIGH)
+  {
+    digitalWrite(13,HIGH);
+    delay(1000);
+    digitalWrite(13,LOW);
+    delay(1000);
+  }
+  else
+  {
+    digitalWrite(13,LOW);
+  }
+}
+
+```
 ## OUTPUT
+## SWITCH ON
+<img width="1184" height="833" alt="Screenshot 2025-08-21 085545" src="https://github.com/user-attachments/assets/cfb53ef7-5dcf-4a55-a772-13e622d4a68f" />
+
+## SWITCH OFF
+<img width="1187" height="837" alt="Screenshot 2025-08-21 085604" src="https://github.com/user-attachments/assets/978b546f-96eb-4c9a-bd41-4e817cce904b" />
 
 ## RESULT
+Thus the program to design and implement a system for LED control using an Arduino microcontroller and a push button is executed successfully.
