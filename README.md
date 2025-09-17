@@ -1,6 +1,8 @@
+# Exp 1: Led control using Arduino
+
 ## NAME: JOTHILAKSHMI PALANI
 ## REG NO: 212223110017
-# EXP 1 : Led-control-using-Arduino
+
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -59,39 +61,44 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
-<img width="725" height="513" alt="Screenshot 2025-08-21 093053" src="https://github.com/user-attachments/assets/2a1eb4d2-04b2-4e26-97af-333322e94ba8" />
+
+<img width="702" height="731" alt="image" src="https://github.com/user-attachments/assets/8af80afa-e85a-470e-ba8b-f54ed77ff477" />
+
 
 
 ## PROGRAM
 ```
 void setup() {
-  pinMode(13,OUTPUT);
+  // put your setup code here, to run once:
+  pinMode(6,OUTPUT);
   pinMode(2,INPUT);
-
 }
 
 void loop() {
   int status=digitalRead(2);
   if(status==HIGH)
   {
-    digitalWrite(13,HIGH);
+    digitalWrite(6,HIGH);
     delay(1000);
-    digitalWrite(13,LOW);
+    digitalWrite(6,LOW);
     delay(1000);
   }
   else
-  {
-    digitalWrite(13,LOW);
-  }
+  digitalWrite(6,LOW);
 }
-
 ```
-## OUTPUT
-## SWITCH ON
-<img width="1184" height="833" alt="Screenshot 2025-08-21 085545" src="https://github.com/user-attachments/assets/cfb53ef7-5dcf-4a55-a772-13e622d4a68f" />
 
-## SWITCH OFF
-<img width="1187" height="837" alt="Screenshot 2025-08-21 085604" src="https://github.com/user-attachments/assets/978b546f-96eb-4c9a-bd41-4e817cce904b" />
+
+
+## OUTPUT
+## Switch on
+<img width="707" height="752" alt="Screenshot 2025-08-21 085746" src="https://github.com/user-attachments/assets/d955cfcd-0a8d-42f7-8bbb-8e8233b7f2af" />
+
+
+## Switch off
+ <img width="704" height="744" alt="Screenshot 2025-08-21 085809" src="https://github.com/user-attachments/assets/aa8938ec-fbe7-4b47-ae3d-cf8296df2154" />
+
+
 
 ## RESULT
-Thus the program to design and implement a system for LED control using an Arduino microcontroller and a push button is executed successfully.
+Designed and implemented a system for LED control using an arduino microcontroller and a push button successfully.
