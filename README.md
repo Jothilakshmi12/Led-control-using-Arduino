@@ -62,7 +62,7 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
-<img width="702" height="731" alt="image" src="https://github.com/user-attachments/assets/8af80afa-e85a-470e-ba8b-f54ed77ff477" />
+<img width="1204" height="839" alt="Screenshot 2025-09-18 090231" src="https://github.com/user-attachments/assets/3ef8b34b-6ea3-4534-8df9-37699d4eef1a" />
 
 
 
